@@ -1,0 +1,15 @@
+div{
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.emojify::before{
+    color: blue;
+    content: '😎 🥸 🤓';
+
+}
+
+.emojify::after{
+    color: red;
+    content: '🤓 🥸 😎';
+}
