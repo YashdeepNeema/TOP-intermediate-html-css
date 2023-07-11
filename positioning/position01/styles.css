@@ -1,0 +1,25 @@
+div > div{
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+}
+.parent{
+    width: auto;
+    height: auto;
+    background-color: blanchedalmond;
+    padding: 15px;
+}
+
+div>.child-one{
+    background-color: lightgreen;
+    position: sticky;
+    right: 25px;
+    top: 20px;
+}
+div>.child-two{
+    background-color: lightcoral;
+}
+div>.child-three{
+    background-color: lightpink;
+}
