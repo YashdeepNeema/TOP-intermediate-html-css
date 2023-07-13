@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js" defer></script>
+    <title>Html5-controls</title>
+</head>
+<body>
+    <label for="price">Choose a maximum house price: </label>
+    <input
+        type="range"
+        name="price"
+        id="price"
+        min="5000"
+        max="25000"
+        step="500"
+        value="5100"
+    />
+    <output class="price-output" for="price"></output>
+    <section>
+        <ul>
+            <li><input type="datetime-local" name="datetime" id="datetime" /></li>
+            <li><input type="month" name="month" id="month"/></li>
+            <li><input type="time" name="time" id="time"/></li>
+            <li><input type="week" name="week" id="week"/></li>
+        </ul>
+        <label for="myDate">When are you available this summer?</label>
+        <input
+            type="date"
+            id="myDate"
+            name="myDate"
+            min="2023-06-12"
+            max="2023-08-12"
+            step="7"
+        />
+    </section>
+</body>
+</html>
